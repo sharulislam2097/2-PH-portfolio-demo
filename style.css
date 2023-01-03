@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.headertext{
+    color: orange;
+}
+
+.sectionall{
+    display: flex;
+    height: 600px;
+    margin-bottom: 100px;
+    
+
+}
+#top-text{
+    padding: 60px;
+}
+.half-width{
+    width: 50%;
+    
+   
+}
+.half-width img{
+    width:60%;
+    position: relative;
+    left: 244px;
+    top: 50px;
+}
+.hireme-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,red) ;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.topbanner{
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.dreamsection{
+    display: flex;
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#dreamimg{
+    position: relative;
+    top: -239px;
+left: -74px;
+}
+
+.downloadresumebutton{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,red) ;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.experience1{
+
+    width: 50%;
+    margin: 137px;
+    padding:25px;
+    border-radius: 10px;
+    border-left: 10px solid orange;
+    
+    
+    box-shadow: grey 10px 12px 40px;
+}
+.experience2{
+    width: 50%;
+    margin: 137px;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 10px solid blue;
+   
+    box-shadow: grey 10px 12px 40px;
+}
+
+.extext{
+    color: orange;
+}
+.experience-section{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.footertext{
+    padding: 15px;
+    text-align: center;
+}
